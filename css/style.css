@@ -1,0 +1,65 @@
+body{
+  border : blue solid 5px;
+  background : blue;
+  
+}
+h1{
+  font-family: Helvetica;
+  text-align : center;
+  color : gold;
+  background : rgb(51, 102, 255);
+  border-radius : 25px;
+  width : 2000px;
+  display : table-cell;
+  vertical-align : middle;
+}
+h2{
+  font-family : courier;
+  text-align : center;
+  font-size : large;
+}
+ul{
+  list-style : none;
+  font-style : italic;
+  line-height : 25px;
+  text-align : center;
+}
+
+.oneinfo{
+  text-align : center;
+  font-weight : bold;
+  font-size : xx-large;
+  background : blue;
+  border-radius : 50px;
+  color : white;
+}
+.exampleone{
+  width : 100%;
+}
+.web-basics-e1{
+  background : rgb(51,153,255);
+  color : gold;
+  font-weight : bold;
+  border-radius : 50px;
+  width : 49%;
+  text-align : center;
+  float : left;
+  height : 180px; /* this way to align seems to work better than what was discussed.  I'm sure I'm just not using the other method as intended but this works. */
+}
+.web-basics-e2{
+  background : rgb(51,153,255);
+  color : gold;
+  font-weight : bold;
+  border-radius : 50px;
+  width : 49%;
+  text-align : center;
+  float : right;
+  height : 180px;
+}
+.web-basics{
+  background : rgb(51,153,255);
+  color : gold;
+  font-weight : bold;
+  border-radius : 50px;
+  text-align : center;
+}
